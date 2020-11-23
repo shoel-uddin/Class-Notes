@@ -1,27 +1,29 @@
-let bmi = function (weight, height){
-    let bmiCal = weight/(height**2)
-    return (bmiCal)
-} 
-let mark = bmi(78, 1.69)
-console.log (mark)
+let arr = [];
+let numSet1 = [
+  [10, 0],
+  [3, 5],
+  [5, 8],
+];
+let numSet2 = [
+  [3, 0],
+  [9, 1],
+  [4, 10],
+  [12, 2],
+  [6, 1],
+  [7, 10],
+];
+let numSet3 = [
+  [3, 0],
+  [9, 1],
+  [4, 8],
+  [12, 2],
+  [6, 1],
+  [7, 8],
+];
 
-let john = bmi(92,1.95)
-console.log (john)
-
-let marks = bmi(95, 1.88)
-console.log (marks)
-
-let johns = bmi(85,1.76)
-console.log (johns)
-
-if (mark > john){
-    console.log( `mark's bmi (${mark}) is greater than john's (${john})`)
-}else{
-    console.log( ` John's bmi (${john}) is  greater than mark's (${mark})`)
-}
-
-if (marks > johns){
-    console.log( `mark's bmi (${marks}) is great than john's (${johns})`)
-}else {
-    console.log( `john's bmi (${johns}) is greater than marks's (${marks})`)
-}
+let number = function (busStops) {
+  for (let i = 0; i <= busStops.length; i++){
+      for (let j =0; j <= busStops[i].length; j++)
+  } return [i];
+};
+console.log(number(numSet1));
